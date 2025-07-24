@@ -7,6 +7,6 @@
     </ContentPage.BindingContext>
     <VerticalStackLayout>
         <Entry Placeholder="Enter task" Text="{Binding NewTaskTitle}" />
-        <Button Text="Add Task" Command="{Binding AddTaskCommand}" />
+        <Button Text="Add Task" Command="{Binding AddNewTaskCommand}" />
     </VerticalStackLayout>
 </ContentPage>
